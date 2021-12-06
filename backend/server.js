@@ -10,7 +10,7 @@ const passport = require('./config/passport')
 
 const app = express()
 
-const MONGO_URI = 'mongodb+srv://markusmakpassword2:markusmakpassword2@cluster0.9ipmf.mongodb.net/dining-dollars?retryWrites=true&w=majority'
+const MONGO_URI = ''
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
